@@ -79,11 +79,12 @@ Create a `.env` file in the server directory:
 PORT=3000
 DBURL=your_mongodb_connection_string
 CLERK_SECRET_KEY=your_clerk_secret_key
+CLERK_PUBLISHABLE_KEY=your_clerk_secret_key
 ```
 
 ### Client Configuration
 
-Create a `.env` file in the client directory:
+Create a `.env.local` file in the client directory:
 
 ```env
 VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
