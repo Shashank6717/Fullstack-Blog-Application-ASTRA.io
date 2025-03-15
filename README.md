@@ -126,7 +126,6 @@ blog-application/
 └── 🖥️ server/               # Node.js backend
     ├── APIs/             # API routes
     ├── models/           # MongoDB models
-    ├── middlewares/      # Custom middlewares
     ├── server.js         # Server entry point
     └── package.json
 ```
