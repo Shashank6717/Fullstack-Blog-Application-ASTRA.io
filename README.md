@@ -103,7 +103,7 @@ npm run dev
 
 ```bash
 cd client
-npm run dev
+node server.js
 ```
 
 ### Access Points 🌐
